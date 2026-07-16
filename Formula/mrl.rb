@@ -4,28 +4,28 @@
 class Mrl < Formula
   desc "ModelRelay CLI for running and testing AI agents"
   homepage "https://modelrelay.ai"
-  version "2.5.0"
+  version "2.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://releases.modelrelay.ai/mrl/#{version}/mrl-#{version}-darwin-arm64.tar.gz"
-      sha256 "d0f5496cc1ef8d04f489d971abaf61abd709fd887d3076b844d3f390900f8678"
+      sha256 "bee1bf6bfdeac1ee1a004aac645772cebc31bd014c93f7df39ebf61bf8037a4c"
     end
     on_intel do
       url "https://releases.modelrelay.ai/mrl/#{version}/mrl-#{version}-darwin-amd64.tar.gz"
-      sha256 "7e1fb80a4bba2194e0cf051feb9476b003a7def98fc807271f6547b511650d12"
+      sha256 "d188cc4f1e95be0517861a1b6ffca563fa6723bc7c60cf15362dbb270f31205e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://releases.modelrelay.ai/mrl/#{version}/mrl-#{version}-linux-arm64.tar.gz"
-      sha256 "fac8534f73dbf3261aaf1130398936479ebd5f43e5b5bcfe57f6dd26af6afbe8"
+      sha256 "975d50955403cb06217c4d4f4c9b1997416248aceec1450666486301fa974140"
     end
     on_intel do
       url "https://releases.modelrelay.ai/mrl/#{version}/mrl-#{version}-linux-amd64.tar.gz"
-      sha256 "953439cd7a83c9daaab5a5edbfa3be93829c2f37a5443fabd9522b26e34fa810"
+      sha256 "f2e6df542ae41a17ead802c8196b772f5a84be91c4012d0a9db6e4dccec9505e"
     end
   end
 
